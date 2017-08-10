@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Great Color Guessing Game!</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+</head>
+
+<body>
+	<h1>
+		The Great 
+		<br>
+		<span id="colorDisplay">RGB</span>
+		<br>Color Guessing Game
+	</h1>
+
+	
+
+	<!-- <h1 id="colorDisplay"></h1> -->
+	<div id="whitebar">
+		<button id="resetColors">New Colors</button>
+		<span id="messageDisplay"></span>
+		<button id="easyBtn" class="mode">Easy</button>
+		<button id="hardBtn" class="mode selected">Hard</button>
+	</div>
+	
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+
+	<script type="text/javascript" src="colorGame.js"></script>
+</body>
+</html>
